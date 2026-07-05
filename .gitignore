@@ -1,0 +1,24 @@
+# ── Arduino / PlatformIO build artifacts ─────────────────────────────────
+build/
+.pio/
+*.hex
+*.elf
+*.bin
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── Flight logs / generated plots (keep the repo about the code, not data) ─
+analysis/*.CSV
+analysis/*.csv
+analysis/*.png
+!analysis/sample_data/*.CSV
+
+# ── OS / editor cruft ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
